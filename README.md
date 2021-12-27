@@ -1,8 +1,8 @@
-# PasswordVault
+# Keep Password
 An application where you can store all your password, bank details, card details in one place and remember only one master PIN. The application works totally offline.
 
-<img align="center" src="https://github.com/ZeynelErdiKarabulut/Password-Vault/blob/master/screenshots/1.jpg" width="90%"></img>
-<img align="center" src="https://github.com/ZeynelErdiKarabulut/Password-Vault/blob/master/screenshots/2.jpg" width="90%"></img> 
+<img align="center" src="https://github.com/ridvanozcan/KeepPassword/blob/main/images/1.png" width="30%"></img>
+<img align="center" src="https://github.com/ridvanozcan/KeepPassword/blob/main/images/2.png" width="30%"></img> 
 
 ## Features:
 - Store Login Details
