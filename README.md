@@ -3,6 +3,10 @@ An application where you can store all your password, bank details, card details
 
 <img align="center" src="https://github.com/ridvanozcan/KeepPassword/blob/main/images/1.png" width="30%"></img>
 <img align="center" src="https://github.com/ridvanozcan/KeepPassword/blob/main/images/2.png" width="30%"></img> 
+<img align="center" src="https://github.com/ridvanozcan/KeepPassword/blob/main/images/4.png" width="30%"></img> 
+<img align="center" src="https://github.com/ridvanozcan/KeepPassword/blob/main/images/5.png" width="30%"></img> 
+<img align="center" src="https://github.com/ridvanozcan/KeepPassword/blob/main/images/7.png" width="30%"></img> 
+<img align="center" src="https://github.com/ridvanozcan/KeepPassword/blob/main/images/8.png" width="30%"></img> 
 
 ## Features:
 - Store Login Details
