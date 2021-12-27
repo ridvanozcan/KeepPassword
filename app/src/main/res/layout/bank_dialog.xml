@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bankDialogRelativeLayout"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/header"
+        android:background="@color/colorPrimary"
+        android:layout_height="100dp">
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/ic_account_balance_white_24dp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_below="@id/header"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/bankInfo"
+            android:layout_marginRight="20dp"
+            android:text="Banka Bilgileri"
+            android:gravity="center_vertical"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:hint="Bank Name"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="67dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/bankIcon"
+            android:src="@drawable/bank_1"
+            />
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="67dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:id="@+id/copyBankName"
+            android:src="@drawable/ic_content_copy_black_24dp"
+            />
+
+        <TextView
+            android:id="@+id/bankNameEt"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="20dp"
+            android:layout_toRightOf="@id/bankIcon"
+            android:gravity="center_vertical"
+            android:hint="Banka Adı" />
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="122dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/bankAccountIcon"
+            android:src="@drawable/user"
+            />
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="122dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:id="@+id/copyAccountNumber"
+            android:src="@drawable/ic_content_copy_black_24dp"
+            />
+
+        <TextView
+            android:id="@+id/bankAccountNumberEt"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="110dp"
+            android:layout_marginRight="20dp"
+            android:layout_toLeftOf="@id/copyAccountNumber"
+            android:layout_toRightOf="@id/bankAccountIcon"
+            android:gravity="center_vertical"
+            android:hint="Hesap Sahibi" />
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="182dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/bankIFSCIcon"
+            android:src="@drawable/ifsc"
+            />
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="182dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:id="@+id/copyIFSC"
+            android:src="@drawable/ic_content_copy_black_24dp"
+            />
+
+        <TextView
+            android:id="@+id/bankIFSCEt"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="170dp"
+            android:layout_marginRight="20dp"
+            android:layout_toLeftOf="@id/copyIFSC"
+            android:layout_toRightOf="@id/bankIFSCIcon"
+            android:gravity="center_vertical"
+            android:hint="Iban" />
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="247dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/bankAddressIcon"
+            android:src="@drawable/home"
+            />
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="247dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:id="@+id/copyAddress"
+            android:src="@drawable/ic_content_copy_black_24dp"
+            />
+
+        <TextView
+            android:id="@+id/bankAddressEt"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="230dp"
+            android:layout_marginRight="20dp"
+            android:layout_toLeftOf="@id/copyAddress"
+            android:layout_toRightOf="@id/bankAddressIcon"
+            android:gravity="center_vertical"
+            android:hint="Banka Adresi" />
+    </RelativeLayout>
+
+</RelativeLayout>

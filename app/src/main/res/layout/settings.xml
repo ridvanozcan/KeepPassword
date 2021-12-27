@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    >
+
+    <EditText
+        android:id="@+id/oldPIN"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center_vertical"
+        android:hint="Eski Şifre"
+        android:inputType="number"
+        android:padding="5dp" />
+
+    <EditText
+        android:id="@+id/newPIN"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/oldPIN"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center_vertical"
+        android:hint="Yeni Şifre"
+        android:padding="5dp" />
+
+    <EditText
+        android:id="@+id/confirmNewPIN"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/newPIN"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_vertical"
+        android:hint="Yeni Şifre Tekrarı"
+        android:padding="5dp" />
+
+    <Button
+        android:id="@+id/changeMasterPIN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/confirmNewPIN"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_bg"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:text="Şifre Değiştir"
+        android:textColor="#fff" />
+
+</RelativeLayout>

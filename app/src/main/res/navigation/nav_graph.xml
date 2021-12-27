@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/nav_graph"
+    app:startDestination="@id/loginDetails">
+
+    <fragment
+        android:id="@+id/loginDetails"
+        android:name="com.example.passwordvault.ui.fragments.LoginDetails"
+        android:label="LoginDetails" />
+    <fragment
+        android:id="@+id/cardDetails"
+        android:name="com.example.passwordvault.ui.fragments.CardDetails"
+        android:label="CardDetails" />
+    <fragment
+        android:id="@+id/bankDetails"
+        android:name="com.example.passwordvault.ui.fragments.BankDetails"
+        android:label="BankDetails" />
+    <fragment
+        android:id="@+id/settings"
+        android:name="com.example.passwordvault.ui.fragments.Settings"
+        android:label="Settings" />
+    <fragment
+        android:id="@+id/passwordGenerator"
+        android:name="com.example.passwordvault.ui.fragments.PasswordGenerator"
+        android:label="PasswordGenerator" />
+    <fragment
+        android:id="@+id/addCardDetails"
+        android:name="com.example.passwordvault.ui.fragments.AddCardDetails"
+        android:label="AddCardDetails" >
+        <action
+            android:id="@+id/action_addCardDetails_to_cardDetails"
+            app:destination="@id/cardDetails"
+            app:popUpTo="@id/cardDetails" />
+    </fragment>
+    <action android:id="@+id/action_global_addCardDetails" app:destination="@id/addCardDetails" />
+    <fragment
+        android:id="@+id/addBankDetails"
+        android:name="com.example.passwordvault.ui.fragments.AddBankDetails"
+        android:label="AddBankDetails" >
+        <action
+            android:id="@+id/action_addBankDetails_to_bankDetails"
+            app:destination="@id/bankDetails"
+            app:popUpTo="@id/bankDetails" />
+    </fragment>
+    <fragment
+        android:id="@+id/addLoginDetails"
+        android:name="com.example.passwordvault.ui.fragments.AddLoginDetails"
+        android:label="AddLoginDetails" >
+        <action
+            android:id="@+id/action_addLoginDetails_to_loginDetails"
+            app:destination="@id/loginDetails"
+            app:popUpTo="@id/loginDetails" />
+    </fragment><action android:id="@+id/action_global_addBankDetails" app:destination="@id/addBankDetails"/><action android:id="@+id/action_global_addLoginDetails" app:destination="@id/addLoginDetails"/>
+</navigation>
