@@ -23,3 +23,7 @@ An application where you can store all your password, bank details, card details
 - [LiveData](https://developer.android.com/topic/libraries/architecture/livedata)
 - [ViewBinding](https://developer.android.com/topic/libraries/view-binding)
 - [Room](https://developer.android.com/training/data-storage/room)
+
+
+## Contact :
+ridvanozcan.com.tr
